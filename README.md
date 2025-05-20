@@ -1,39 +1,21 @@
-# 🔥 Fire Detection Web App
+## Fire Detection Web-App
+A real-time fire detection web application built using YOLOv8 and Streamlit. This project identifies fire in both images and video streams with high accuracy, providing a simple and interactive user interface.
 
-A real-time fire detection web application built using YOLOv8 and Streamlit. This app can identify fire in images or video streams and display the results interactively in a browser.
+## Features:
+Detects fire in uploaded images and live video streams
 
----
+Uses YOLOv8 (Ultralytics) for object detection
 
-## 🚀 Features
+Trained on a custom dataset for improved accuracy
 
-- Detects fire in uploaded images or video streams
-- Powered by YOLOv8 (Ultralytics)
-- Pre-trained model (`best.pt`) for high accuracy
-- User-friendly interface with Streamlit
-- Visual feedback with bounding boxes around detected fire
+Streamlit-based interface for seamless interaction
 
----
+Displays bounding boxes around detected fire regions
 
-## 🛠️ Tech Stack
+## Tech Stack:
+Programming Language: Python
+Model Framework: YOLOv8 (Ultralytics)
+Web Framework: Streamlit
+Image/Video Processing: OpenCV
+Deep Learning Backend: PyTorch
 
-- **Python** – Programming Language
-- **Streamlit** – Web Interface
-- **Ultralytics** – YOLOv8 Model Framework
-- **OpenCV** – Image/Video Processing
-- **PyTorch** – Deep Learning Backend
-
----
-
-## 📁 Project Structure
-
-fire-detection/
-│
-├── app.py               → Streamlit Web App  
-├── best.pt              → Trained YOLOv8 model file  
-├── main.py              → Optional CLI/testing script  
-├── fire-detection.ipynb → Jupyter Notebook for training/testing  
-├── fire.jpeg            → Sample input image  
-├── requirements.txt     → Python dependencies  
-└── venv/                → Virtual environment folder
-
----
